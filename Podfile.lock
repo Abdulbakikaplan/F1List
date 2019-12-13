@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (5.10.1):
+    - Kingfisher/Core (= 5.10.1)
+  - Kingfisher/Core (5.10.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - SwiftyUserDefaults (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - Moya (~> 11.0.2)
+  - SwiftyUserDefaults (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Result
+    - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
+
+PODFILE CHECKSUM: d0d59d91ec2caf6878ce91f0a70b9cd336313e22
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_KukaAppsCase {
+  umbrella header "Pods-KukaAppsCase-umbrella.h"
+
+  export *
+  module * { export * }
+}

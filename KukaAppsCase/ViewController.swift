@@ -12,9 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        openDriverVC()
+        navigationController?.navigationBar.isHidden = true
+        
+    }
+    
+
+    func openDriverVC() {
+        let driverVC = DriverVC.init(nibName: "DriverVC", bundle: nil)
+        self.navigationController?.pushViewController(driverVC, animated: true)
     }
 
-
 }
-
